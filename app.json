@@ -34,7 +34,7 @@
       },
       "PGSSLMODE": {
         "description": "Heroku made a change so SSL is required to connect to Postgres",
-        "value": "require"
+        "value": "no-verify"
       },
       "NODE_TLS_REJECT_UNAUTHORIZED": {
         "description": "Because Heroku SSL is self signed, SSL fails if this is not set to 0",
